@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom' 
 import { styles } from '../styles'
 import { navLinks } from '../constants'
-import { logo, menu, close, favicon } from '../assets'
+import { Logo, menu, close, favicon } from '../assets'
 
 const Navbar = () => {
   const [active, setActive] = useState("")
@@ -19,7 +19,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={favicon} alt='anish mourya' className='w-14 h-14 object-contain' />
+<img src={favicon} alt='anish mourya' className='w-14 h-14 object-contain' />
           <p className='text-white text-[16px] cursor-pointer font-semibold'>
             ANISH MOURYA <span className='sm:block text-sm font-extralight'>{"{web developer}"}</span>
           </p>
